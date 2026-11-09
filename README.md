@@ -56,7 +56,7 @@ uv run python main.py
 ```
 
 ### Casos de prueba
-
+```
 
         ========== SISTEMA DE BIBLIOTECA ==========
         1. Registrar sala
@@ -160,3 +160,4 @@ Fecha AAAA-MM-DD: 2026-11-09
         0. Salir
         
 Seleccione una opción: 0 
+```
