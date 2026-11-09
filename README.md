@@ -37,7 +37,7 @@ uv --version
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Vicenkks/Taller_Evaluado_ORM_Reservas_Programacion_II.git
+git clone https://github.com/Vicenkks/Taller_Evaluado_ORM_Reservas_Programacion_II_Vicente.git
 ```
 
 Ingresar a la carpeta
