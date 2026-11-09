@@ -26,6 +26,7 @@ def registrar_reserva(estudiante, sala_id, fecha):
 
         session.add(reserva)
         sala.disponible = False
+        print("Reserva registrada")
 
 def consultar_reservas():
     with SessionLocal() as session:
