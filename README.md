@@ -49,10 +49,43 @@ Ejecutar:
 ```bash
 uv sync
 ```
+
 ### 3. Ejecutar el programa
 
 ```bash
-uv run python main.py
+uv run python menu.py
+```
+
+### Ejecución sin uv (Python normal)
+
+**1. Crear el entorno virtual:**
+
+```bash
+python3 -m venv .venv
+```
+
+**2. Activar el entorno virtual (Linux/macOS):**
+
+```bash
+source .venv/bin/activate
+```
+
+**3. Instalar dependencias:**
+
+```bash
+python -m pip install sqlalchemy
+```
+
+**4. Ejecutar el sistema:**
+
+```bash
+python menu.py
+```
+
+**5. Desactivar el entorno virtual al finalizar:**
+
+```bash
+deactivate
 ```
 
 ### Casos de prueba
